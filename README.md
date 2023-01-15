@@ -14,10 +14,10 @@ python3 janus-scan.py domain_name
 Use the --names option to only show the subdomains and not their IP addresses:
 janus.py domain_name --names
 
-Use the --ips option to only show the IP addresses and not the subdomains. 
-Example: python3 script_name.py domain_name --ips
+Use the --ips option to only show the IP addresses and not the subdomains:
+python3 script_name.py domain_name --ips
 
-Use the --scope option to provide a file containing a list of IP addresses to match against the subdomains' IP addresses. 
+Use the --scope option to provide a file containing a list of IP addresses to match against the subdomains' IP addresses:
 python script_name.py domain_name --scope scope.txt
 
 Why Janus?
