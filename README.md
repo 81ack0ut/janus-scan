@@ -18,7 +18,7 @@ Use the --ips option to only show the IP addresses and not the subdomains.
 Example: python3 script_name.py domain_name --ips
 
 Use the --scope option to provide a file containing a list of IP addresses to match against the subdomains' IP addresses. 
-Example: python script_name.py domain_name --scope scope.txt
+python script_name.py domain_name --scope scope.txt
 
 Why Janus?
 
