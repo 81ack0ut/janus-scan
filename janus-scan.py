@@ -45,7 +45,7 @@ if __name__ == "__main__":
         ip_address = get_ip_address(subdomain)
         ip_addresses[subdomain] = ip_address
 
-    # Read the penetration IP addresses from the file
+    # Read the IP addresses from the file
     if scope_file:
         with open(scope_file, "r") as f:
             scope_ips = set(line.strip() for line in f)
